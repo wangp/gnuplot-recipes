@@ -1,0 +1,39 @@
+#!/bin/sh
+set -eu
+
+awk -v pid=$2 <$1 >bars.dat \
+'
+BEGIN {
+    start = 0
+}
+match($0, "^multitime .*batch." pid) {
+    start = 1
+    num = 0
+}
+start && /^[0-9]:/ {
+    num++
+    label = $2
+    gsub(/^.*prince-/, "", label)
+    gsub(/\/.*$/, "", label)
+}
+start && /^user/ {
+    mean = $2
+    stddev = $3
+    min = $4
+    median = $5
+    max = $6
+    nsamples = 10
+    stderr = stddev / sqrt(nsamples)
+    z = 1.960   # for 95% confidence interval
+    ci = z * stderr
+    print label, mean, ci
+    if (num == 1) {
+        print mean/30 >"ylabelofs.txt"
+    }
+}
+start && /^multitime / && num >= 4 {
+    exit
+}
+'
+
+gnuplot -c bars.gnuplot $(cat ylabelofs.txt)

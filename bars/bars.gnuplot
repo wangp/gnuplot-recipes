@@ -1,13 +1,14 @@
 #!/usr/bin/gnuplot
 
-set terminal pdf
-set output 'bars.pdf'
+set terminal svg
+set output 'bars.svg'
 
-set yrange [0:400]
+set xrange [-0.5:3.5]
+set yrange [0:]
 
 #set xlabel 'Horizontal' font "Helvetica, 14"
-set ylabel 'Vertical' font "Helvetica, 14"
-set title 'My title' font "Helvetica, 24"
+set ylabel 'Mean user time (s)' font "Helvetica, 14"
+#set title 'My title' font "Helvetica, 24"
 
 unset key
 
@@ -16,9 +17,9 @@ set xtics nomirror
 set tics scale 0
 
 set boxwidth 0.5
-set style fill solid
+#set style fill solid
 #set style fill solid border -1
-#set style fill solid 0.5 border
+set style fill solid 0.5 border
 
 # About entries in 'using':
 #   - a plain integer is a column number,
@@ -36,8 +37,8 @@ set style fill solid
 # where column(0) is the sequence number of the data record.
 #
 plot 'bars.dat' \
-		using 0:2:xtic(1) \
-		with boxes linecolor rgb '#e53935', \
+		using 0:2:3:xtic(1) \
+		with boxerrorbars linecolor rgb '#e53935', \
 	'' \
-		using 0:($2 + 15.0):2 \
+		using 0:($2 + ARG1):2 \
 		with labels font 'Helvetica, 12'

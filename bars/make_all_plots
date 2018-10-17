@@ -1,0 +1,16 @@
+#!/bin/sh
+set -v
+./make_one_plot benchmarks2.txt 1783 && mv bars.svg carol.svg
+./make_one_plot benchmarks2.txt 1782 && mv bars.svg mobydick.svg
+./make_one_plot benchmarks2.txt 1872 && mv bars.svg highlight.svg
+./make_one_plot benchmarks2.txt 1917 && mv bars.svg qrcode.svg
+./make_one_plot benchmarks2.txt 1871 && mv bars.svg tjquery.svg
+./make_one_plot benchmarks2.txt 2004 && mv bars.svg words.svg
+./make_one_plot benchmarks2.txt 2054 && mv bars.svg gary.svg
+./make_one_plot benchmarks2.txt 2099 && mv bars.svg amiri-quran.svg
+./make_one_plot benchmarks2.txt 2053 && mv bars.svg kerningbig.svg
+./make_one_plot benchmarks2.txt 2190 && mv bars.svg MC_breakdown.svg
+./make_one_plot benchmarks2.txt 2189 && mv bars.svg car.svg
+./make_one_plot benchmarks2.txt 2555 && mv bars.svg thesis.svg
+./make_one_plot benchmarks2.txt 2602 && mv bars.svg webarch.svg
+./make_one_plot benchmarks2.txt 2646 && mv bars.svg mathml.svg
