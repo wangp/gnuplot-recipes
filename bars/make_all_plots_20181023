@@ -1,0 +1,26 @@
+#!/bin/sh
+set -v
+
+src=benchmarks-20181023-thesis-georgia.txt
+./make_one_plot $src 1623 && mv bars.svg thesis-georgia-05.svg
+./make_one_plot $src 1648 && mv bars.svg thesis-georgia-10.svg
+./make_one_plot $src 1672 && mv bars.svg thesis-georgia-15.svg
+./make_one_plot $src 1622 && mv bars.svg thesis-georgia-20.svg
+
+src=benchmarks-20181023-thesis-tnr.txt
+./make_one_plot $src 2400 && mv bars.svg thesis-tnr-05.svg
+./make_one_plot $src 2444 && mv bars.svg thesis-tnr-10.svg
+./make_one_plot $src 2489 && mv bars.svg thesis-tnr-15.svg
+./make_one_plot $src 2399 && mv bars.svg thesis-tnr-20.svg
+
+src=benchmarks-20181023-carol-georgia.txt
+./make_one_plot $src 1919 && mv bars.svg carol-georgia-05.svg
+./make_one_plot $src 1962 && mv bars.svg carol-georgia-10.svg
+./make_one_plot $src 2017 && mv bars.svg carol-georgia-15.svg
+./make_one_plot $src 1918 && mv bars.svg carol-georgia-20.svg
+
+src=benchmarks-20181023-carol-tnr.txt
+./make_one_plot $src 2150 && mv bars.svg carol-tnr-05.svg
+./make_one_plot $src 2193 && mv bars.svg carol-tnr-10.svg
+./make_one_plot $src 2237 && mv bars.svg carol-tnr-15.svg
+./make_one_plot $src 2149 && mv bars.svg carol-tnr-20.svg
