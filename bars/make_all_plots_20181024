@@ -1,0 +1,26 @@
+#!/bin/sh
+set -v
+
+src=benchmarks-carol-georgia-10.txt; ./make_one_plot $src 2775 && mv bars.svg carol-georgia-10.svg
+src=benchmarks-carol-georgia-11.txt; ./make_one_plot $src 2822 && mv bars.svg carol-georgia-11.svg
+src=benchmarks-carol-georgia-12.txt; ./make_one_plot $src 2868 && mv bars.svg carol-georgia-12.svg
+src=benchmarks-carol-georgia-13.txt; ./make_one_plot $src 2914 && mv bars.svg carol-georgia-13.svg
+src=benchmarks-carol-georgia-14.txt; ./make_one_plot $src 2961 && mv bars.svg carol-georgia-14.svg
+src=benchmarks-carol-georgia-15.txt; ./make_one_plot $src 3007 && mv bars.svg carol-georgia-15.svg
+src=benchmarks-carol-georgia-16.txt; ./make_one_plot $src 3053 && mv bars.svg carol-georgia-16.svg
+src=benchmarks-carol-georgia-17.txt; ./make_one_plot $src 3101 && mv bars.svg carol-georgia-17.svg
+src=benchmarks-carol-georgia-18.txt; ./make_one_plot $src 3146 && mv bars.svg carol-georgia-18.svg
+src=benchmarks-carol-georgia-19.txt; ./make_one_plot $src 3191 && mv bars.svg carol-georgia-19.svg
+src=benchmarks-carol-georgia-20.txt; ./make_one_plot $src 3237 && mv bars.svg carol-georgia-20.svg
+
+src=benchmarks-carol-tnr-10.txt; ./make_one_plot $src 3391 && mv bars.svg carol-tnr-10.svg
+src=benchmarks-carol-tnr-11.txt; ./make_one_plot $src 3436 && mv bars.svg carol-tnr-11.svg
+src=benchmarks-carol-tnr-12.txt; ./make_one_plot $src 3482 && mv bars.svg carol-tnr-12.svg
+src=benchmarks-carol-tnr-13.txt; ./make_one_plot $src 3545 && mv bars.svg carol-tnr-13.svg
+src=benchmarks-carol-tnr-14.txt; ./make_one_plot $src 3591 && mv bars.svg carol-tnr-14.svg
+src=benchmarks-carol-tnr-15.txt; ./make_one_plot $src 3637 && mv bars.svg carol-tnr-15.svg
+src=benchmarks-carol-tnr-16.txt; ./make_one_plot $src 3685 && mv bars.svg carol-tnr-16.svg
+src=benchmarks-carol-tnr-17.txt; ./make_one_plot $src 3743 && mv bars.svg carol-tnr-17.svg
+src=benchmarks-carol-tnr-18.txt; ./make_one_plot $src 3789 && mv bars.svg carol-tnr-18.svg
+src=benchmarks-carol-tnr-19.txt; ./make_one_plot $src 3835 && mv bars.svg carol-tnr-19.svg
+src=benchmarks-carol-tnr-20.txt; ./make_one_plot $src 3882 && mv bars.svg carol-tnr-20.svg

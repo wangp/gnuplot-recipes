@@ -218,35 +218,35 @@
 	<g id="gnuplot_plot_1" ><title>'bars.dat' 		using 0:2:3:xtic(1)</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '95.6,444.0 159.6,444.0 159.6,40.2 95.6,40.2 '/>
+		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '95.6,444.0 159.6,444.0 159.6,38.7 95.6,38.7 '/>
 	</g>
-	<path stroke='rgb(229,  57,  53)'  d='M95.6,444.0 L95.6,40.3 L159.5,40.3 L159.5,444.0 L95.6,444.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '223.4,444.0 287.4,444.0 287.4,35.0 223.4,35.0 '/>
+	<path stroke='rgb(229,  57,  53)'  d='M95.6,444.0 L95.6,38.8 L159.5,38.8 L159.5,444.0 L95.6,444.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '223.4,444.0 287.4,444.0 287.4,35.3 223.4,35.3 '/>
 	</g>
-	<path stroke='rgb(229,  57,  53)'  d='M223.4,444.0 L223.4,35.1 L287.3,35.1 L287.3,444.0 L223.4,444.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+	<path stroke='rgb(229,  57,  53)'  d='M223.4,444.0 L223.4,35.4 L287.3,35.4 L287.3,444.0 L223.4,444.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '351.3,444.0 415.3,444.0 415.3,42.9 351.3,42.9 '/>
 	</g>
 	<path stroke='rgb(229,  57,  53)'  d='M351.3,444.0 L351.3,43.0 L415.2,43.0 L415.2,444.0 L351.3,444.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '479.1,444.0 543.1,444.0 543.1,69.9 479.1,69.9 '/>
+		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '479.1,444.0 543.1,444.0 543.1,68.5 479.1,68.5 '/>
 	</g>
-	<path stroke='rgb(229,  57,  53)'  d='M479.1,444.0 L479.1,70.0 L543.0,70.0 L543.0,444.0 L479.1,444.0 Z  '/>	<path stroke='rgb(229,  57,  53)'  d='M127.5,43.0 L127.5,37.7 M123.0,43.0 L132.0,43.0 M123.0,37.7 L132.0,37.7 M255.4,43.7 L255.4,26.6
-		M250.9,43.7 L259.9,43.7 M250.9,26.6 L259.9,26.6 M383.2,47.4 L383.2,38.5 M378.7,47.4 L387.7,47.4
-		M378.7,38.5 L387.7,38.5 M511.1,73.0 L511.1,66.9 M506.6,73.0 L515.6,73.0 M506.6,66.9 L515.6,66.9
+	<path stroke='rgb(229,  57,  53)'  d='M479.1,444.0 L479.1,68.6 L543.0,68.6 L543.0,444.0 L479.1,444.0 Z  '/>	<path stroke='rgb(229,  57,  53)'  d='M127.5,43.1 L127.5,34.5 M123.0,43.1 L132.0,43.1 M123.0,34.5 L132.0,34.5 M255.4,41.9 L255.4,29.0
+		M250.9,41.9 L259.9,41.9 M250.9,29.0 L259.9,29.0 M383.2,47.2 L383.2,38.8 M378.7,47.2 L387.7,47.2
+		M378.7,38.8 L387.7,38.8 M511.1,72.5 L511.1,64.7 M506.6,72.5 L515.6,72.5 M506.6,64.7 L515.6,64.7
 		 '/></g>
 	</g>
 	<g id="gnuplot_plot_2" ><title>'' 		using 0:($2 + ARG1):2</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(127.5,30.8)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
-		<text><tspan font-family="Helvetica" >9.478</tspan></text>
+	<g transform="translate(127.5,29.2)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Helvetica" >9.514</tspan></text>
 	</g>
-	<g transform="translate(255.4,25.6)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
-		<text><tspan font-family="Helvetica" >9.600</tspan></text>
+	<g transform="translate(255.4,25.8)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Helvetica" >9.593</tspan></text>
 	</g>
 	<g transform="translate(383.2,33.4)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
-		<text><tspan font-family="Helvetica" >9.416</tspan></text>
+		<text><tspan font-family="Helvetica" >9.415</tspan></text>
 	</g>
-	<g transform="translate(511.1,60.4)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
-		<text><tspan font-family="Helvetica" >8.782</tspan></text>
+	<g transform="translate(511.1,59.0)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Helvetica" >8.814</tspan></text>
 	</g>
 </g>
 	</g>
