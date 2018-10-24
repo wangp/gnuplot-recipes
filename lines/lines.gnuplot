@@ -1,16 +1,16 @@
 #!/usr/bin/gnuplot
 
-set terminal pdf
-set output 'lines.pdf'
+set terminal svg
+set output 'lines.svg'
 
-set xrange [0:10]
-set yrange [0:10]
+set xrange [:]
+set yrange [0:]
 
-set xlabel 'Horizontal (units)'	font "Helvetica, 14"
-set ylabel 'Vertical' font "Helvetica, 14"
-set title 'My title' font "Helvetica, 24"
+set xlabel 'Number of inputs' font "Helvetica, 14"
+set ylabel 'Mean time (s)' font "Helvetica, 14"
+#set title 'My title' font "Helvetica, 24"
 
-set key spacing 3 font "Helvetica, 14"
+set key spacing 1 font "Helvetica, 14"
 set key box
 set key bottom right
 #set key outside
@@ -24,8 +24,19 @@ set mytics 2
 #set tics scale 0
 #set tics out
 
+set pointsize 0.5
+
 # 'lines' for no points
 # 'pointtype <n>' for different types of points
-plot 'lines.dat' with linespoints pointtype 6 \
-	linecolor rgb '#f44336' \
-	title "My data"
+plot 'no-argpack.dat' with linespoints pointtype 2 \
+	linecolor rgb 'red' \
+	title "no-argpack", \
+     'baseline.dat' with linespoints pointtype 4 \
+	linecolor rgb 'brown' \
+	title "baseline", \
+     'argpack.dat' with linespoints pointtype 6 \
+	linecolor rgb 'blue' \
+	title "argpack", \
+     'argpack-enhance.dat' with linespoints pointtype 8 \
+	linecolor rgb 'black' \
+	title "argpack-enh"

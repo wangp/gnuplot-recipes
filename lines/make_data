@@ -1,0 +1,25 @@
+#!/usr/bin/awk -f
+
+
+/^===> Executing / {
+    gsub(/.*--no-subset-fonts/, "", $0)
+    numinputs = NF
+    next
+}
+
+/^1: / { i=1 }
+/^2: / { i=2 }
+/^3: / { i=3 }
+/^4: / { i=4 }
+
+/^user/ {
+    mean=$2
+    series[i] = series[i] numinputs " " mean "\n"
+}
+
+END {
+    print series[1] >"no-argpack.dat"
+    print series[2] >"baseline.dat"
+    print series[3] >"argpack.dat"
+    print series[4] >"argpack-enhance.dat"
+}

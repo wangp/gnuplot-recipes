@@ -1,0 +1,8 @@
+#!/bin/sh
+set -v
+
+./make_data benchmarks-carol-georgia-*.txt
+./lines.gnuplot && mv lines.svg carol-georgia.svg
+
+./make_data benchmarks-carol-tnr-*.txt
+./lines.gnuplot && mv lines.svg carol-tnr.svg
