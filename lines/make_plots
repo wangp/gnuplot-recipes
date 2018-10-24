@@ -6,3 +6,6 @@ set -v
 
 ./make_data benchmarks-carol-tnr-*.txt
 ./lines.gnuplot && mv lines.svg carol-tnr.svg
+
+./make_data benchmarks-thesis-georgia-*.txt
+./lines.gnuplot && mv lines.svg thesis-georgia.svg

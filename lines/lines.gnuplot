@@ -1,6 +1,6 @@
 #!/usr/bin/gnuplot
 
-set terminal svg
+set terminal svg lw 0.8
 set output 'lines.svg'
 
 set xrange [:]
@@ -32,11 +32,11 @@ plot 'no-argpack.dat' with linespoints pointtype 2 \
 	linecolor rgb 'red' \
 	title "no-argpack", \
      'baseline.dat' with linespoints pointtype 4 \
-	linecolor rgb 'brown' \
+	linecolor rgb 'black' \
 	title "baseline", \
      'argpack.dat' with linespoints pointtype 6 \
 	linecolor rgb 'blue' \
 	title "argpack", \
      'argpack-enhance.dat' with linespoints pointtype 8 \
-	linecolor rgb 'black' \
+	linecolor rgb '#008000' \
 	title "argpack-enh"

@@ -1,26 +1,43 @@
-#!/bin/sh
-set -v
+#!/bin/zsh
 
-src=benchmarks-carol-georgia-10.txt; ./make_one_plot $src 2775 && mv bars.svg carol-georgia-10.svg
-src=benchmarks-carol-georgia-11.txt; ./make_one_plot $src 2822 && mv bars.svg carol-georgia-11.svg
-src=benchmarks-carol-georgia-12.txt; ./make_one_plot $src 2868 && mv bars.svg carol-georgia-12.svg
-src=benchmarks-carol-georgia-13.txt; ./make_one_plot $src 2914 && mv bars.svg carol-georgia-13.svg
-src=benchmarks-carol-georgia-14.txt; ./make_one_plot $src 2961 && mv bars.svg carol-georgia-14.svg
-src=benchmarks-carol-georgia-15.txt; ./make_one_plot $src 3007 && mv bars.svg carol-georgia-15.svg
-src=benchmarks-carol-georgia-16.txt; ./make_one_plot $src 3053 && mv bars.svg carol-georgia-16.svg
-src=benchmarks-carol-georgia-17.txt; ./make_one_plot $src 3101 && mv bars.svg carol-georgia-17.svg
-src=benchmarks-carol-georgia-18.txt; ./make_one_plot $src 3146 && mv bars.svg carol-georgia-18.svg
-src=benchmarks-carol-georgia-19.txt; ./make_one_plot $src 3191 && mv bars.svg carol-georgia-19.svg
-src=benchmarks-carol-georgia-20.txt; ./make_one_plot $src 3237 && mv bars.svg carol-georgia-20.svg
+go() {
+    src=$1
+    pid=$( grep '^multitime' $src | cut -d. -f2 )
+    output=$2
+    ./make_one_plot $src $pid && mv bars.svg $2
+}
 
-src=benchmarks-carol-tnr-10.txt; ./make_one_plot $src 3391 && mv bars.svg carol-tnr-10.svg
-src=benchmarks-carol-tnr-11.txt; ./make_one_plot $src 3436 && mv bars.svg carol-tnr-11.svg
-src=benchmarks-carol-tnr-12.txt; ./make_one_plot $src 3482 && mv bars.svg carol-tnr-12.svg
-src=benchmarks-carol-tnr-13.txt; ./make_one_plot $src 3545 && mv bars.svg carol-tnr-13.svg
-src=benchmarks-carol-tnr-14.txt; ./make_one_plot $src 3591 && mv bars.svg carol-tnr-14.svg
-src=benchmarks-carol-tnr-15.txt; ./make_one_plot $src 3637 && mv bars.svg carol-tnr-15.svg
-src=benchmarks-carol-tnr-16.txt; ./make_one_plot $src 3685 && mv bars.svg carol-tnr-16.svg
-src=benchmarks-carol-tnr-17.txt; ./make_one_plot $src 3743 && mv bars.svg carol-tnr-17.svg
-src=benchmarks-carol-tnr-18.txt; ./make_one_plot $src 3789 && mv bars.svg carol-tnr-18.svg
-src=benchmarks-carol-tnr-19.txt; ./make_one_plot $src 3835 && mv bars.svg carol-tnr-19.svg
-src=benchmarks-carol-tnr-20.txt; ./make_one_plot $src 3882 && mv bars.svg carol-tnr-20.svg
+go benchmarks-carol-georgia-10.txt carol-georgia-10.svg
+go benchmarks-carol-georgia-11.txt carol-georgia-11.svg
+go benchmarks-carol-georgia-12.txt carol-georgia-12.svg
+go benchmarks-carol-georgia-13.txt carol-georgia-13.svg
+go benchmarks-carol-georgia-14.txt carol-georgia-14.svg
+go benchmarks-carol-georgia-15.txt carol-georgia-15.svg
+go benchmarks-carol-georgia-16.txt carol-georgia-16.svg
+go benchmarks-carol-georgia-17.txt carol-georgia-17.svg
+go benchmarks-carol-georgia-18.txt carol-georgia-18.svg
+go benchmarks-carol-georgia-19.txt carol-georgia-19.svg
+go benchmarks-carol-georgia-20.txt carol-georgia-20.svg
+
+go benchmarks-carol-tnr-10.txt carol-tnr-10.svg
+go benchmarks-carol-tnr-11.txt carol-tnr-11.svg
+go benchmarks-carol-tnr-12.txt carol-tnr-12.svg
+go benchmarks-carol-tnr-13.txt carol-tnr-13.svg
+go benchmarks-carol-tnr-14.txt carol-tnr-14.svg
+go benchmarks-carol-tnr-15.txt carol-tnr-15.svg
+go benchmarks-carol-tnr-16.txt carol-tnr-16.svg
+go benchmarks-carol-tnr-17.txt carol-tnr-17.svg
+go benchmarks-carol-tnr-18.txt carol-tnr-18.svg
+go benchmarks-carol-tnr-19.txt carol-tnr-19.svg
+go benchmarks-carol-tnr-20.txt carol-tnr-20.svg
+
+go benchmarks-thesis-georgia-01.txt thesis-georgia-01.svg
+go benchmarks-thesis-georgia-02.txt thesis-georgia-02.svg
+go benchmarks-thesis-georgia-03.txt thesis-georgia-03.svg
+go benchmarks-thesis-georgia-04.txt thesis-georgia-04.svg
+go benchmarks-thesis-georgia-05.txt thesis-georgia-05.svg
+go benchmarks-thesis-georgia-06.txt thesis-georgia-06.svg
+go benchmarks-thesis-georgia-07.txt thesis-georgia-07.svg
+go benchmarks-thesis-georgia-08.txt thesis-georgia-08.svg
+go benchmarks-thesis-georgia-09.txt thesis-georgia-09.svg
+go benchmarks-thesis-georgia-10.txt thesis-georgia-10.svg

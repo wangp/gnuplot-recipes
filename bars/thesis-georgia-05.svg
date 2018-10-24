@@ -218,35 +218,35 @@
 	<g id="gnuplot_plot_1" ><title>'bars.dat' 		using 0:2:3:xtic(1)</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '95.6,444.0 159.6,444.0 159.6,59.3 95.6,59.3 '/>
+		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '95.6,444.0 159.6,444.0 159.6,63.5 95.6,63.5 '/>
 	</g>
-	<path stroke='rgb(229,  57,  53)'  d='M95.6,444.0 L95.6,59.4 L159.5,59.4 L159.5,444.0 L95.6,444.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '223.4,444.0 287.4,444.0 287.4,59.1 223.4,59.1 '/>
+	<path stroke='rgb(229,  57,  53)'  d='M95.6,444.0 L95.6,63.6 L159.5,63.6 L159.5,444.0 L95.6,444.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '223.4,444.0 287.4,444.0 287.4,68.7 223.4,68.7 '/>
 	</g>
-	<path stroke='rgb(229,  57,  53)'  d='M223.4,444.0 L223.4,59.2 L287.3,59.2 L287.3,444.0 L223.4,444.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '351.3,444.0 415.3,444.0 415.3,52.2 351.3,52.2 '/>
+	<path stroke='rgb(229,  57,  53)'  d='M223.4,444.0 L223.4,68.8 L287.3,68.8 L287.3,444.0 L223.4,444.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '351.3,444.0 415.3,444.0 415.3,49.6 351.3,49.6 '/>
 	</g>
-	<path stroke='rgb(229,  57,  53)'  d='M351.3,444.0 L351.3,52.3 L415.2,52.3 L415.2,444.0 L351.3,444.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '479.1,444.0 543.1,444.0 543.1,53.8 479.1,53.8 '/>
+	<path stroke='rgb(229,  57,  53)'  d='M351.3,444.0 L351.3,49.7 L415.2,49.7 L415.2,444.0 L351.3,444.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(229,  57,  53)' fill-opacity = '0.500000' points = '479.1,444.0 543.1,444.0 543.1,46.1 479.1,46.1 '/>
 	</g>
-	<path stroke='rgb(229,  57,  53)'  d='M479.1,444.0 L479.1,53.9 L543.0,53.9 L543.0,444.0 L479.1,444.0 Z  '/>	<path stroke='rgb(229,  57,  53)'  d='M127.5,64.8 L127.5,53.9 M123.0,64.8 L132.0,64.8 M123.0,53.9 L132.0,53.9 M255.4,68.2 L255.4,50.3
-		M250.9,68.2 L259.9,68.2 M250.9,50.3 L259.9,50.3 M383.2,61.5 L383.2,43.0 M378.7,61.5 L387.7,61.5
-		M378.7,43.0 L387.7,43.0 M511.1,56.2 L511.1,51.6 M506.6,56.2 L515.6,56.2 M506.6,51.6 L515.6,51.6
+	<path stroke='rgb(229,  57,  53)'  d='M479.1,444.0 L479.1,46.2 L543.0,46.2 L543.0,444.0 L479.1,444.0 Z  '/>	<path stroke='rgb(229,  57,  53)'  d='M127.5,68.2 L127.5,58.9 M123.0,68.2 L132.0,68.2 M123.0,58.9 L132.0,58.9 M255.4,74.2 L255.4,63.5
+		M250.9,74.2 L259.9,74.2 M250.9,63.5 L259.9,63.5 M383.2,58.4 L383.2,41.1 M378.7,58.4 L387.7,58.4
+		M378.7,41.1 L387.7,41.1 M511.1,50.6 L511.1,41.8 M506.6,50.6 L515.6,50.6 M506.6,41.8 L515.6,41.8
 		 '/></g>
 	</g>
 	<g id="gnuplot_plot_2" ><title>'' 		using 0:($2 + ARG1):2</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(127.5,50.5)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
-		<text><tspan font-family="Helvetica" >18.061</tspan></text>
+	<g transform="translate(127.5,54.8)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Helvetica" >17.865</tspan></text>
 	</g>
-	<g transform="translate(255.4,50.3)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
-		<text><tspan font-family="Helvetica" >18.068</tspan></text>
+	<g transform="translate(255.4,60.1)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Helvetica" >17.617</tspan></text>
 	</g>
-	<g transform="translate(383.2,43.3)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
-		<text><tspan font-family="Helvetica" >18.396</tspan></text>
+	<g transform="translate(383.2,40.9)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Helvetica" >18.515</tspan></text>
 	</g>
-	<g transform="translate(511.1,45.0)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
-		<text><tspan font-family="Helvetica" >18.318</tspan></text>
+	<g transform="translate(511.1,37.4)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="Helvetica" >18.681</tspan></text>
 	</g>
 </g>
 	</g>

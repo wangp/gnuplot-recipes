@@ -1,0 +1,69 @@
+multitime -v -s 0 -n 10 -b /tmp/batch.1500
+===> Executing ../../../prince-argpack-enhance/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-baseline/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-no-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-no-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-no-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack-enhance/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-baseline/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-baseline/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-no-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack-enhance/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-no-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack-enhance/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-no-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack-enhance/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-baseline/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-baseline/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack-enhance/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-baseline/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-baseline/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-baseline/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-no-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack-enhance/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack-enhance/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-no-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack-enhance/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-no-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-baseline/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-argpack-enhance/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-no-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> Executing ../../../prince-baseline/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+===> multitime results
+1: ../../../prince-no-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+            Mean        Std.Dev.    Min         Median      Max
+real        18.016      0.351       17.750      17.905      18.851      
+user        17.865      0.350       17.605      17.757      18.699      
+sys         0.073       0.005       0.063       0.072       0.081       
+
+2: ../../../prince-baseline/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+            Mean        Std.Dev.    Min         Median      Max
+real        17.768      0.399       17.420      17.650      18.822      
+user        17.617      0.402       17.261      17.497      18.681      
+sys         0.076       0.009       0.064       0.073       0.092       
+
+3: ../../../prince-argpack/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+            Mean        Std.Dev.    Min         Median      Max
+real        18.669      0.656       17.503      18.748      19.656      
+user        18.515      0.657       17.355      18.595      19.491      
+sys         0.074       0.010       0.063       0.071       0.098       
+
+4: ../../../prince-argpack-enhance/output/release/prince --prefix ../../data -s ../../data/fonts/testfonts.css -o /dev/null --log /dev/null --javascript --no-network --no-subset-fonts thesis.html thesis.html thesis.html thesis.html thesis.html
+            Mean        Std.Dev.    Min         Median      Max
+real        18.827      0.330       18.302      18.866      19.363      
+user        18.681      0.332       18.156      18.723      19.220      
+sys         0.066       0.006       0.059       0.065       0.080       
+
+
+
+
