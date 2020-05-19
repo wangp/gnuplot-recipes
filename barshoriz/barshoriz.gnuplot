@@ -1,7 +1,7 @@
 #!/usr/bin/gnuplot
 
-set terminal pdf
-set output 'barshoriz.pdf'
+set terminal svg
+set output 'barshoriz.svg'
 
 set xrange [0:375]
 

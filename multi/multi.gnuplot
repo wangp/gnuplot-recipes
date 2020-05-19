@@ -1,7 +1,7 @@
 #!/usr/bin/gnuplot
 
-set terminal pdf size 10,6
-set output 'multi.pdf'
+set terminal svg
+set output 'multi.svg'
 
 set multiplot layout 2, 2
 plot sin(x)	linecolor rgb '#e53935'

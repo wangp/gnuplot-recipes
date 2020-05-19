@@ -1,7 +1,7 @@
 #!/usr/bin/gnuplot
 
-set terminal pdf
-set output 'scatter.pdf'
+set terminal svg
+set output 'scatter.svg'
 
 set xrange [0:10]
 set yrange [0:10]

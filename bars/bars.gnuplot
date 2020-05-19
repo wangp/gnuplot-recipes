@@ -1,7 +1,7 @@
 #!/usr/bin/gnuplot
 
-set terminal pdf
-set output 'bars.pdf'
+set terminal svg
+set output 'bars.svg'
 
 set yrange [0:400]
 
