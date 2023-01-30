@@ -1,0 +1,28 @@
+#!/usr/bin/gawk -f
+
+/^START / {
+    key = $2
+    time = $3
+
+    order[i++] = key
+    start[key] = time
+}
+
+/^STOP / {
+    key = $2
+    time = $3
+
+    stop[key] = time
+}
+
+END {
+    t0 = start[order[0]]
+
+    for (i in order) {
+	key = order[i]
+	t1 = start[key] - t0
+	t2 = stop[key] - t0
+
+	print key " " t1 " " t2
+    }
+}

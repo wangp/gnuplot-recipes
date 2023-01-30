@@ -1,0 +1,22 @@
+#!/bin/sh
+#
+# Usage: log-start-stop ID COMMAND...
+#
+set -u
+
+get_timestamp() {
+    TIMESTAMP=$(date +'%s.%N')
+}
+
+ID=$1
+shift 1
+
+get_timestamp
+printf "START %s %s\n" "$ID" "$TIMESTAMP"
+
+"$@"; STATUS=$?
+
+get_timestamp
+printf "STOP %s %s\n" "$ID" "$TIMESTAMP"
+
+exit $STATUS
